@@ -1,0 +1,116 @@
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  color: rgb(129, 82, 238) !important;
+}
+
+.list-group-item {
+  background-color: transparent;
+  border-top: 1px solid #ddd;
+  border-radius: 0;
+  color: #fff;
+  border-color: #89d2f3 !important;
+  }
+.for_fnt {
+  font-size: 14px;
+  font-weight: 600;
+}
+.crnc {
+  font-size: 14px;
+}
+.pool_edt {
+  color: #3298dc;
+  display: block;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
+.cp_fr_bttn {
+  color: #fff;
+  /* background: #f95192;
+    border-color: #f95192; */
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+  width: 7%;
+  text-align: center !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .cp_fr_bttn {
+    width: 25%;
+  }
+  .css-j5w0w9-MuiStepConnector-root {
+    display: none !important ;
+  }
+}
+.box_back_color {
+  background: transparent !important;
+}
+
+.chek_box_tow {
+  gap: 15px !important;
+}
+.pool_edt_tow {
+  color: #3298dc;
+  display: block;
+  font-size: 0.75rem;
+}
+
+/* Scp css */
+
+.third_frm_lk {
+  /* color: #f95192 !important; */
+}
+
+.icon_cls {
+  position: absolute;
+  margin: 13px 0px 15px 10px;
+  padding: 0px;
+  display: flex;
+  justify-content: start;
+  font-size: 17px;
+}
+
+.url_input::placeholder {
+  padding-left: 22px !important;
+  font-size: 15px !important;
+}
+
+.text_ara {
+  width: 100%;
+  max-height: 40em;
+  min-height: 8em;
+}
+
+.text_ara::placeholder {
+  padding-left: 12px !important;
+}
+
+/* submit page css */
+
+.clc_fr_color {
+  /* color: #f95192 !important; */
+  font-size: 14px;
+}
+
+.clc_fr_blu {
+  color: #f7f7f7 !important;
+  font-size: 14px;
+}
+
+.clc_fr_size {
+  font-size: 14px !important;
+  color: #fff !important;
+}
+
+.frr_brk a {
+  word-break: break-word !important;
+}
+.css-1hv8oq8-MuiStepLabel-label.Mui-active {
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 500;
+  width: 120% !important;
+}
+.css-1hv8oq8-MuiStepLabel-label {
+  width: 117% !important;
+}

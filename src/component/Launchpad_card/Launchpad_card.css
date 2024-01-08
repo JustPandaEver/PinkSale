@@ -1,0 +1,48 @@
+.img_card {
+  width: 22%;
+  height: 100%;
+  border: 1px solid rgb(248, 163, 84);
+  border-radius: 60px;
+}
+.bg_color {
+  background: radial-gradient(
+    100.93% 100.93% at 50.83% 0.66%,
+    rgba(77, 0, 138, 0.85) 0,
+    #001355 49.08%,
+    #000535 100%
+  ) !important;
+  border: 1px solid #89d2f3 !important;
+  box-shadow: 0 0 31px rgb(149 100 211 / 50%) !important;
+  border-radius: 23px !important;
+}
+.hh {
+  font-size: 22px;
+  font-weight: 600;
+}
+.progress_text {
+  font-size: 14px;
+  font-weight: 600;
+}
+.kk {
+  font-size: 15px;
+  font-weight: 600;
+  color: #888;
+  margin: 0 !important;
+}
+.p_bg {
+  background-color: #f3ead73a !important;
+  border-radius: 12px !important;
+  font-size: 15px !important;
+  color: #d29813 !important;
+}
+.icon_lock {
+  color: #d29813 !important;
+  font-size: 18px !important;
+}
+.progress {
+  height: 10px !important;
+}
+.progress-bar {
+  background-color: #3298dc;
+ 
+}

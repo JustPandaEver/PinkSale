@@ -1,0 +1,117 @@
+
+.main_shade {
+  background: radial-gradient(
+    100.93% 100.93% at 50.83% 0.66%,
+    rgba(77, 0, 138, 0.85) 0,
+    #001355 49.08%,
+    #000535 100%
+  );
+}
+
+.view_shade {
+  border: 1px solid #89d2f3 !important;
+  box-shadow: 0 0 31px rgb(149 100 211 / 50%) !important;
+  border-radius: 23px !important;
+}
+
+.min_img{
+    width: 80%;
+    border-radius: 50px;
+    border: 2px solid rgba(249, 81, 146, 0.2);
+}
+
+.epn_cls{
+    font-size: 26px;
+    font-weight: 600;
+    color: white;
+}
+
+.spac_cls{
+    gap: 50px;
+}
+
+.p_bgs{
+    border-radius: 12px !important;
+    font-size: 12px !important;
+    font-weight: 600;
+    background-color: #d1fae5 !important;
+    color: #10b981 !important;
+    padding: 4px 8px !important;
+    display: flex;
+    align-items: center;
+}
+
+.con_siz{
+    font-size: 23px !important;
+}
+.icons_outer{
+    gap: 14px;
+}
+
+.for_blu{
+    color: #3298dc;
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.brd_no{
+    border-bottom: none !important;
+}
+.trr_brd_b{
+    border-bottom: 1px solid white !important;
+}
+table td, th {
+    word-break: break-word;
+}
+
+.main_time{
+    gap: 6px !important;
+}
+
+.pik_clr{
+    color: #ffffff !important;
+    background: linear-gradient( 98.76deg, rgb(56, 195, 207) 0%, rgb(135, 103, 211) 100% );
+    border-radius: 5px;
+    font-weight: 600;
+}
+.progress-bar{
+    background-color: #3298dc !important;
+}
+.progress{
+    border-radius: 10px;
+}
+
+.swit_bbtn{
+    color: #ffffff !important;
+    background: linear-gradient( 98.76deg, rgb(56, 195, 207) 0%, rgb(135, 103, 211) 100% );
+    font-style: italic;
+}
+
+.view_tow{
+    height: max-content !important;
+}
+
+
+@media only screen and (max-width:600px) {
+    .spac_cls{
+        gap: 10px;
+    }
+
+    .min_img{
+        width: 30%;
+        border-radius: 70px;
+        border: 2px solid rgba(249, 81, 146, 0.2);
+    }
+
+}
+
+@media screen and (min-width:600px) and (max-width:992px) {
+    .min_img{
+        width: 18%;
+        border-radius: 70px;
+        border: 2px solid rgba(249, 81, 146, 0.2);
+    }
+}

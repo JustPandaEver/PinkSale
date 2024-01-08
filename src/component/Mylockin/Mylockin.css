@@ -1,0 +1,36 @@
+.main_time {
+  gap: 6px !important;
+}
+
+.pik_clr {
+  background-color: #fdeaf1;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.fst_bB {
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+}
+
+.last_butn_main {
+  display: flex;
+  justify-content: center;
+}
+.last_btn_in {
+  width: 57%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 600px) {
+  .last_butn_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fst_bB {
+    margin-bottom: 1rem;
+  }
+}

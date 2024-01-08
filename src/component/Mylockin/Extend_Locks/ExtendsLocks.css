@@ -1,0 +1,47 @@
+.yelo_box {
+  background-color: #fffbe6;
+  border: 1px solid #ffe799;
+  color: rgba(0, 0, 0, 0.85);
+  padding: 8px 15px;
+  border-radius: 4px;
+}
+
+.loc_buttn {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.aFtr_sty {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.hovr_clr:hover {
+  border-color: #f14668;
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #1e7dc0 !important;
+  outline: 0;
+  box-shadow: 0 0 0 2px #c495fa !important;
+}
+
+.loc_buttn {
+  justify-content: center !important;
+  /* align-items: baseline !important; */
+  display: flex !important;
+}
+.loc_buttn:focus {
+  box-shadow: none !important;
+}
+
+/* .loc_buttn:hover{
+    cursor: no-drop !important;
+} */
+
+.fs_14 {
+  font-size: 14px !important;
+}

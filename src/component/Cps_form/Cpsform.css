@@ -1,0 +1,28 @@
+
+.for_fnt {
+  font-size: 14px;
+  font-weight: 600;
+}
+.crnc {
+  font-size: 14px;
+}
+.pool_edt {
+  color: #3298dc;
+  display: block;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
+.cp_fr_bttn {
+  color: #fff;
+
+ 
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+  width: 7%;
+}
+
+@media only screen and (max-width: 600px) {
+  .cp_fr_bttn {
+    width: 25%;
+  }
+}

@@ -1,0 +1,17 @@
+.launh_grid {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr !important;
+}
+@media only screen and (max-width: 600px) {
+  .launh_grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .launh_grid {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+  }
+}

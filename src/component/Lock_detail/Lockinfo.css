@@ -1,0 +1,32 @@
+.adrs {
+  text-decoration: none;
+  color: #f95192;
+}
+
+.text_tow {
+  display: flex;
+  /* text-align: right !important; */
+  justify-content: space-between;
+}
+
+.fnt_sz {
+  font-size: 15px;
+}
+
+.left_txt {
+  font-size: 14px;
+}
+
+.wall {
+  display: flex;
+  flex-direction: column;
+}
+
+.fr_edt {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.ln_two_edt {
+  font-size: 14px;
+}

@@ -1,0 +1,23 @@
+/* .pag_color .css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+    color: black;
+    border-color: #f95192 !important;
+    background-color: #fff !important;
+} */
+.css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root {
+  color: rgb(255, 255, 255) !important;
+  background: linear-gradient(
+    98.76deg,
+    rgb(56, 195, 207) 0%,
+    rgb(135, 103, 211) 100%
+  );
+}
+
+@media screen and (max-width: 600px) {
+  .mg_k {
+    display: none !important;
+  }
+
+  .css-19kzrtu {
+    padding: 10px !important;
+  }
+}
